@@ -1,0 +1,55 @@
+@import url('http://fonts.cdnfonts.com/css/geograph-edit');
+html, body{
+    font-family: 'geograph-edit';
+    color: #fff;
+}
+.yellowInRight{
+    border-right: 4px solid yellow;
+    margin-right: 5px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav-bar{
+
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left: 30px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+   
+}
+#nav-bar ul .nav-item a:hover
+{
+    color: #5faa41!important;
+}
+.navbar{
+    background: #0F0F0F;
+    height: 100px;
+}
+.navbar-toggler{
+    border: none!important;
+}
+.nav-link{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+/*---------------------*/
+.slider{
+    background: url('/img/771820.jpg') rgba(64, 64, 64, 0.65);
+    background-size: cover;
+    
+    height: 52vh;
+    justify-content: center;
+    align-items: center;
+    /* background-blend-mode: multiply; */
+}
